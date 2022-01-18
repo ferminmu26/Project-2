@@ -1,0 +1,1239 @@
+{
+  "fetchTime": "2022-01-04T23:41:27.126Z",
+  "LighthouseRunWarnings": [],
+  "HostFormFactor": "desktop",
+  "HostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+  "NetworkUserAgent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+  "BenchmarkIndex": 1655.5,
+  "WebAppManifest": null,
+  "InstallabilityErrors": {
+    "errors": []
+  },
+  "Stacks": [],
+  "settings": {
+    "output": [
+      "html"
+    ],
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 360,
+      "height": 640,
+      "deviceScaleFactor": 2.625,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+    "auditMode": true,
+    "gatherMode": true,
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "cli",
+    "budgets": null,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": null,
+    "skipAudits": null
+  },
+  "GatherContext": {
+    "gatherMode": "navigation"
+  },
+  "URL": {
+    "requestedUrl": "http://127.0.0.1:5500/Hello-Microverse/index.html",
+    "finalUrl": "http://127.0.0.1:5500/Hello-Microverse/index.html"
+  },
+  "Timing": [
+    {
+      "startTime": 824.3574,
+      "name": "lh:init:config",
+      "duration": 476.1654,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 825.862,
+      "name": "lh:config:requireGatherers",
+      "duration": 33.576200000000085,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 859.5295,
+      "name": "lh:config:requireAudits",
+      "duration": 382.2125,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 1301.6173,
+      "name": "lh:init:connect",
+      "duration": 33.006200000000035,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 1334.738,
+      "name": "lh:gather:loadBlank",
+      "duration": 21.95180000000005,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 1334.9856,
+      "name": "lh:driver:navigate",
+      "duration": 21.348600000000033,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 1356.8242,
+      "name": "lh:gather:getVersion",
+      "duration": 1.0529999999998836,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 1357.9983,
+      "name": "lh:gather:getBenchmarkIndex",
+      "duration": 1005.7996999999998,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2363.9145,
+      "name": "lh:gather:setupDriver",
+      "duration": 19.98510000000033,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2367.9373,
+      "name": "lh:prepare:navigationMode",
+      "duration": 15.945799999999963,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2384.108,
+      "name": "lh:gather:runPass-defaultPass",
+      "duration": 3033.2023,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2384.1816,
+      "name": "lh:gather:loadBlank",
+      "duration": 11.8733000000002,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2384.2235,
+      "name": "lh:driver:navigate",
+      "duration": 11.784599999999955,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2396.1525,
+      "name": "lh:prepare:navigation",
+      "duration": 148.26989999999978,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2438.5712,
+      "name": "lh:storage:clearDataForOrigin",
+      "duration": 27.210700000000088,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2465.8516,
+      "name": "lh:storage:clearBrowserCaches",
+      "duration": 76.08230000000003,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2542.061,
+      "name": "lh:gather:prepareThrottlingAndNetwork",
+      "duration": 2.346099999999751,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2544.5307,
+      "name": "lh:gather:beforePass",
+      "duration": 18.95540000000028,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2544.5495,
+      "name": "lh:gather:beforePass:CSSUsage",
+      "duration": 0.11380000000008295,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2544.6724,
+      "name": "lh:gather:beforePass:JsUsage",
+      "duration": 12.838600000000042,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2557.5468,
+      "name": "lh:gather:beforePass:ViewportDimensions",
+      "duration": 0.07969999999977517,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2557.6398,
+      "name": "lh:gather:beforePass:ConsoleMessages",
+      "duration": 2.9250999999999294,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.5825,
+      "name": "lh:gather:beforePass:AnchorElements",
+      "duration": 0.026499999999941792,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.6182,
+      "name": "lh:gather:beforePass:ImageElements",
+      "duration": 0.011500000000069122,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.6357,
+      "name": "lh:gather:beforePass:LinkElements",
+      "duration": 0.009900000000016007,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.6509,
+      "name": "lh:gather:beforePass:MetaElements",
+      "duration": 0.015300000000024738,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.6723,
+      "name": "lh:gather:beforePass:ScriptElements",
+      "duration": 0.012199999999666034,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.6895,
+      "name": "lh:gather:beforePass:IFrameElements",
+      "duration": 0.010800000000017462,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7043,
+      "name": "lh:gather:beforePass:FormElements",
+      "duration": 0.010900000000219734,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7189,
+      "name": "lh:gather:beforePass:MainDocumentContent",
+      "duration": 0.010800000000017462,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7335,
+      "name": "lh:gather:beforePass:GlobalListeners",
+      "duration": 0.00930000000016662,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7462,
+      "name": "lh:gather:beforePass:Doctype",
+      "duration": 0.009700000000066211,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7596,
+      "name": "lh:gather:beforePass:DOMStats",
+      "duration": 0.008700000000317232,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7718,
+      "name": "lh:gather:beforePass:OptimizedImages",
+      "duration": 0.013399999999819556,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.7888,
+      "name": "lh:gather:beforePass:PasswordInputsWithPreventedPaste",
+      "duration": 0.011600000000271393,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.8038,
+      "name": "lh:gather:beforePass:ResponseCompression",
+      "duration": 0.008800000000064756,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2560.8152,
+      "name": "lh:gather:beforePass:TagsBlockingFirstPaint",
+      "duration": 0.7683000000001812,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2561.5911,
+      "name": "lh:gather:beforePass:FontSize",
+      "duration": 0.02070000000003347,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2561.6158,
+      "name": "lh:gather:beforePass:EmbeddedContent",
+      "duration": 0.010200000000168075,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2561.6295,
+      "name": "lh:gather:beforePass:RobotsTxt",
+      "duration": 0.009900000000016007,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2561.6423,
+      "name": "lh:gather:beforePass:TapTargets",
+      "duration": 0.008499999999912689,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2561.6538,
+      "name": "lh:gather:beforePass:Accessibility",
+      "duration": 0.008100000000013097,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2561.6648,
+      "name": "lh:gather:beforePass:TraceElements",
+      "duration": 0.8452000000002045,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2562.5182,
+      "name": "lh:gather:beforePass:InspectorIssues",
+      "duration": 0.7283999999999651,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2563.2535,
+      "name": "lh:gather:beforePass:SourceMaps",
+      "duration": 0.205000000000382,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2563.4657,
+      "name": "lh:gather:beforePass:FullPageScreenshot",
+      "duration": 0.016299999999773718,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2563.5401,
+      "name": "lh:gather:beginRecording",
+      "duration": 46.92179999999962,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2610.6079,
+      "name": "lh:gather:loadPage-defaultPass",
+      "duration": 2427.8695,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 2610.699,
+      "name": "lh:driver:navigate",
+      "duration": 2427.7101,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5038.5813,
+      "name": "lh:gather:pass",
+      "duration": 0.6896999999999025,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5039.3405,
+      "name": "lh:gather:getTrace",
+      "duration": 45.591599999999744,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5084.9421,
+      "name": "lh:gather:getDevtoolsLog",
+      "duration": 0.7613999999994121,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5085.1775,
+      "name": "lh:computed:NetworkRecords",
+      "duration": 0.5173000000004322,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5088.3537,
+      "name": "lh:gather:afterPass",
+      "duration": 328.7984000000006,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5093.0477,
+      "name": "lh:gather:afterPass:CSSUsage",
+      "duration": 13.09979999999996,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5106.1625,
+      "name": "lh:gather:afterPass:JsUsage",
+      "duration": 7.293299999999363,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5113.4707,
+      "name": "lh:gather:afterPass:ViewportDimensions",
+      "duration": 2.4744000000000597,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5115.9638,
+      "name": "lh:gather:afterPass:ConsoleMessages",
+      "duration": 2.231599999999162,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5118.2437,
+      "name": "lh:gather:afterPass:AnchorElements",
+      "duration": 9.162199999999757,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5127.4232,
+      "name": "lh:gather:afterPass:ImageElements",
+      "duration": 5.9398999999993976,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5133.3824,
+      "name": "lh:gather:afterPass:LinkElements",
+      "duration": 4.294699999999466,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5137.695,
+      "name": "lh:gather:afterPass:MetaElements",
+      "duration": 3.7343000000000757,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5141.4412,
+      "name": "lh:gather:afterPass:ScriptElements",
+      "duration": 4.615699999999379,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5146.1715,
+      "name": "lh:gather:afterPass:IFrameElements",
+      "duration": 3.2401999999992768,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5149.426,
+      "name": "lh:gather:afterPass:FormElements",
+      "duration": 3.701199999999517,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5153.1396,
+      "name": "lh:gather:afterPass:MainDocumentContent",
+      "duration": 2.10149999999976,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5155.2519,
+      "name": "lh:gather:afterPass:GlobalListeners",
+      "duration": 3.2101000000002387,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5158.4729,
+      "name": "lh:gather:afterPass:Doctype",
+      "duration": 2.84479999999985,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5161.3389,
+      "name": "lh:gather:afterPass:DOMStats",
+      "duration": 5.529599999999846,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5166.881,
+      "name": "lh:gather:afterPass:OptimizedImages",
+      "duration": 1.3914999999997235,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5168.2829,
+      "name": "lh:gather:afterPass:PasswordInputsWithPreventedPaste",
+      "duration": 2.4749999999994543,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5170.768,
+      "name": "lh:gather:afterPass:ResponseCompression",
+      "duration": 4.148400000000038,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5174.928,
+      "name": "lh:gather:afterPass:TagsBlockingFirstPaint",
+      "duration": 2.9206999999996697,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5177.8602,
+      "name": "lh:gather:afterPass:FontSize",
+      "duration": 7.110999999999876,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5184.9859,
+      "name": "lh:gather:afterPass:EmbeddedContent",
+      "duration": 2.5275000000001455,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5187.5251,
+      "name": "lh:gather:afterPass:RobotsTxt",
+      "duration": 6.961299999999937,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5187.7056,
+      "name": "lh:gather:getVersion",
+      "duration": 0.5315000000000509,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5188.9758,
+      "name": "lh:gather:getVersion",
+      "duration": 0.39019999999982247,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5194.5004,
+      "name": "lh:gather:afterPass:TapTargets",
+      "duration": 9.02310000000034,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5203.5366,
+      "name": "lh:gather:afterPass:Accessibility",
+      "duration": 72.92169999999987,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5276.4728,
+      "name": "lh:gather:afterPass:TraceElements",
+      "duration": 12.29700000000048,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5277.5996,
+      "name": "lh:computed:ProcessedTrace",
+      "duration": 5.397600000000239,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5283.0181,
+      "name": "lh:computed:ProcessedNavigation",
+      "duration": 0.6149999999997817,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5288.7825,
+      "name": "lh:gather:afterPass:InspectorIssues",
+      "duration": 2.0715999999993073,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5290.8661,
+      "name": "lh:gather:afterPass:SourceMaps",
+      "duration": 2.026699999999437,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5292.9063,
+      "name": "lh:gather:afterPass:FullPageScreenshot",
+      "duration": 124.23580000000038,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5417.5192,
+      "name": "lh:gather:populateBaseArtifacts",
+      "duration": 12.404900000000453,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5418.3533,
+      "name": "lh:gather:collectStacks",
+      "duration": 11.384300000000621,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5430.6824,
+      "name": "lh:gather:runPass-offlinePass",
+      "duration": 48.7492000000002,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5430.7876,
+      "name": "lh:gather:loadBlank",
+      "duration": 15.636000000000422,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5430.8309,
+      "name": "lh:driver:navigate",
+      "duration": 15.555900000000292,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5446.4368,
+      "name": "lh:prepare:navigation",
+      "duration": 1.4505999999992127,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5446.4908,
+      "name": "lh:gather:prepareThrottlingAndNetwork",
+      "duration": 1.386000000000422,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5447.9032,
+      "name": "lh:gather:beforePass",
+      "duration": 2.2283000000006723,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5447.9132,
+      "name": "lh:gather:beforePass:ServiceWorker",
+      "duration": 2.208599999999933,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5450.1405,
+      "name": "lh:gather:beginRecording",
+      "duration": 0.05379999999968277,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5450.201,
+      "name": "lh:gather:loadPage-offlinePass",
+      "duration": 23.35450000000037,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5450.2326,
+      "name": "lh:driver:navigate",
+      "duration": 23.26800000000003,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5473.5668,
+      "name": "lh:gather:pass",
+      "duration": 0.06920000000081927,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5473.6426,
+      "name": "lh:gather:getDevtoolsLog",
+      "duration": 0.457300000000032,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5473.9534,
+      "name": "lh:computed:NetworkRecords",
+      "duration": 0.14039999999931752,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5475.0955,
+      "name": "lh:gather:afterPass",
+      "duration": 4.317199999999502,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5478.2215,
+      "name": "lh:gather:afterPass:ServiceWorker",
+      "duration": 1.1814000000003944,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5479.5417,
+      "name": "lh:gather:disconnect",
+      "duration": 31.54190000000017,
+      "entryType": "measure"
+    },
+    {
+      "startTime": 5479.5979,
+      "name": "lh:storage:clearDataForOrigin",
+      "duration": 29.27310000000034,
+      "entryType": "measure"
+    }
+  ],
+  "PageLoadError": null,
+  "CSSUsage": {
+    "rules": [
+      {
+        "styleSheetId": "21104.0",
+        "startOffset": 0,
+        "endOffset": 68,
+        "used": true
+      }
+    ],
+    "stylesheets": [
+      {
+        "header": {
+          "styleSheetId": "21104.0",
+          "frameId": "E222736BBB8DD6C50F43D90D41AFBCEF",
+          "sourceURL": "http://127.0.0.1:5500/Hello-Microverse/style.css",
+          "origin": "regular",
+          "title": "",
+          "ownerNode": 7,
+          "disabled": false,
+          "isInline": false,
+          "isMutable": false,
+          "isConstructed": false,
+          "startLine": 0,
+          "startColumn": 0,
+          "length": 70,
+          "endLine": 4,
+          "endColumn": 0
+        },
+        "content": ".first {\r\n  background-color: yellowgreen;\r\n  text-align: center;\r\n}\r\n"
+      }
+    ]
+  },
+  "JsUsage": {
+    "http://127.0.0.1:5500/Hello-Microverse/index.html": [
+      {
+        "scriptId": "12",
+        "url": "http://127.0.0.1:5500/Hello-Microverse/index.html",
+        "functions": [
+          {
+            "functionName": "",
+            "ranges": [
+              {
+                "startOffset": 0,
+                "endOffset": 1437,
+                "count": 1
+              }
+            ],
+            "isBlockCoverage": false
+          },
+          {
+            "functionName": "",
+            "ranges": [
+              {
+                "startOffset": 69,
+                "endOffset": 1308,
+                "count": 1
+              }
+            ],
+            "isBlockCoverage": false
+          },
+          {
+            "functionName": "refreshCSS",
+            "ranges": [
+              {
+                "startOffset": 86,
+                "endOffset": 738,
+                "count": 0
+              }
+            ],
+            "isBlockCoverage": false
+          },
+          {
+            "functionName": "socket.onmessage",
+            "ranges": [
+              {
+                "startOffset": 963,
+                "endOffset": 1093,
+                "count": 1
+              }
+            ],
+            "isBlockCoverage": false
+          }
+        ]
+      }
+    ]
+  },
+  "ViewportDimensions": {
+    "innerWidth": 360,
+    "innerHeight": 640,
+    "outerWidth": 360,
+    "outerHeight": 640,
+    "devicePixelRatio": 2.625
+  },
+  "ConsoleMessages": [
+    {
+      "eventType": "protocolLog",
+      "source": "network",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "timestamp": 1641339688423.6802,
+      "url": "http://127.0.0.1:5500/favicon.ico"
+    }
+  ],
+  "AnchorElements": [],
+  "ImageElements": [],
+  "LinkElements": [
+    {
+      "rel": "stylesheet",
+      "href": "http://127.0.0.1:5500/Hello-Microverse/style.css",
+      "hreflang": "",
+      "as": "",
+      "crossOrigin": null,
+      "hrefRaw": "style.css",
+      "source": "head",
+      "node": {
+        "lhId": "5-0-LINK",
+        "devtoolsNodePath": "1,HTML,0,HEAD,3,LINK",
+        "selector": "head > link",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        },
+        "snippet": "<link rel=\"stylesheet\" href=\"style.css\">",
+        "nodeLabel": "head > link"
+      }
+    }
+  ],
+  "MetaElements": [
+    {
+      "name": "",
+      "content": "",
+      "charset": "UTF-8",
+      "node": {
+        "lhId": "5-1-META",
+        "devtoolsNodePath": "1,HTML,0,HEAD,0,META",
+        "selector": "head > meta",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        },
+        "snippet": "<meta charset=\"UTF-8\">",
+        "nodeLabel": "head > meta"
+      }
+    },
+    {
+      "name": "",
+      "content": "IE=edge",
+      "httpEquiv": "x-ua-compatible",
+      "node": {
+        "lhId": "5-2-META",
+        "devtoolsNodePath": "1,HTML,0,HEAD,1,META",
+        "selector": "head > meta",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        },
+        "snippet": "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+        "nodeLabel": "head > meta"
+      }
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0",
+      "node": {
+        "lhId": "5-3-META",
+        "devtoolsNodePath": "1,HTML,0,HEAD,2,META",
+        "selector": "head > meta",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        },
+        "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "nodeLabel": "head > meta"
+      }
+    }
+  ],
+  "ScriptElements": [
+    {
+      "type": "text/javascript",
+      "src": null,
+      "id": null,
+      "async": false,
+      "defer": false,
+      "source": "body",
+      "content": "\n\t// <![CDATA[  <-- For SVG support\n\tif ('WebSocket' in window) {\n\t\t(function () {\n\t\t\tfunction refreshCSS() {\n\t\t\t\tvar sheets = [].slice.call(document.getElementsByTagName(\"link\"));\n\t\t\t\tvar head = document.getElementsByTagName(\"head\")[0];\n\t\t\t\tfor (var i = 0; i < sheets.length; ++i) {\n\t\t\t\t\tvar elem = sheets[i];\n\t\t\t\t\tvar parent = elem.parentElement || head;\n\t\t\t\t\tparent.removeChild(elem);\n\t\t\t\t\tvar rel = elem.rel;\n\t\t\t\t\tif (elem.href && typeof rel != \"string\" || rel.length == 0 || rel.toLowerCase() == \"stylesheet\") {\n\t\t\t\t\t\tvar url = elem.href.replace(/(&|\\?)_cacheOverride=\\d+/, '');\n\t\t\t\t\t\telem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());\n\t\t\t\t\t}\n\t\t\t\t\tparent.appendChild(elem);\n\t\t\t\t}\n\t\t\t}\n\t\t\tvar protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';\n\t\t\tvar address = protocol + window.location.host + window.location.pathname + '/ws';\n\t\t\tvar socket = new WebSocket(address);\n\t\t\tsocket.onmessage = function (msg) {\n\t\t\t\tif (msg.data == 'reload') window.location.reload();\n\t\t\t\telse if (msg.data == 'refreshcss') refreshCSS();\n\t\t\t};\n\t\t\tif (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {\n\t\t\t\tconsole.log('Live reload enabled.');\n\t\t\t\tsessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);\n\t\t\t}\n\t\t})();\n\t}\n\telse {\n\t\tconsole.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');\n\t}\n\t// ]]>\n",
+      "requestId": "6F12E1806FEE33AA5FDE0918C7880088",
+      "node": {
+        "lhId": "5-4-SCRIPT",
+        "devtoolsNodePath": "1,HTML,1,BODY,2,SCRIPT",
+        "selector": "body > script",
+        "boundingRect": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0
+        },
+        "snippet": "<script type=\"text/javascript\">",
+        "nodeLabel": "\n\t// <![CDATA[  <-- For SVG support\n\tif ('WebSocket' in window) {\n\t\t(function (…"
+      }
+    }
+  ],
+  "IFrameElements": [],
+  "FormElements": [],
+  "MainDocumentContent": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    <header class=\"first\">\r\n        <h1>\"Hello Microverse!\".</h1>\r\n    </header>\r\n <!-- Code injected by live-server -->\n<script type=\"text/javascript\">\n\t// <![CDATA[  <-- For SVG support\n\tif ('WebSocket' in window) {\n\t\t(function () {\n\t\t\tfunction refreshCSS() {\n\t\t\t\tvar sheets = [].slice.call(document.getElementsByTagName(\"link\"));\n\t\t\t\tvar head = document.getElementsByTagName(\"head\")[0];\n\t\t\t\tfor (var i = 0; i < sheets.length; ++i) {\n\t\t\t\t\tvar elem = sheets[i];\n\t\t\t\t\tvar parent = elem.parentElement || head;\n\t\t\t\t\tparent.removeChild(elem);\n\t\t\t\t\tvar rel = elem.rel;\n\t\t\t\t\tif (elem.href && typeof rel != \"string\" || rel.length == 0 || rel.toLowerCase() == \"stylesheet\") {\n\t\t\t\t\t\tvar url = elem.href.replace(/(&|\\?)_cacheOverride=\\d+/, '');\n\t\t\t\t\t\telem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());\n\t\t\t\t\t}\n\t\t\t\t\tparent.appendChild(elem);\n\t\t\t\t}\n\t\t\t}\n\t\t\tvar protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';\n\t\t\tvar address = protocol + window.location.host + window.location.pathname + '/ws';\n\t\t\tvar socket = new WebSocket(address);\n\t\t\tsocket.onmessage = function (msg) {\n\t\t\t\tif (msg.data == 'reload') window.location.reload();\n\t\t\t\telse if (msg.data == 'refreshcss') refreshCSS();\n\t\t\t};\n\t\t\tif (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {\n\t\t\t\tconsole.log('Live reload enabled.');\n\t\t\t\tsessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);\n\t\t\t}\n\t\t})();\n\t}\n\telse {\n\t\tconsole.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');\n\t}\n\t// ]]>\n</script></body>\r\n</html>\r\n",
+  "GlobalListeners": [],
+  "Doctype": {
+    "name": "html",
+    "publicId": "",
+    "systemId": ""
+  },
+  "DOMStats": {
+    "depth": {
+      "max": 3,
+      "lhId": "5-5-H1",
+      "devtoolsNodePath": "1,HTML,1,BODY,0,HEADER,0,H1",
+      "selector": "body > header.first > h1",
+      "boundingRect": {
+        "top": 21,
+        "bottom": 58,
+        "left": 8,
+        "right": 352,
+        "width": 344,
+        "height": 37
+      },
+      "snippet": "<h1>",
+      "nodeLabel": "\"Hello Microverse!\"."
+    },
+    "width": {
+      "max": 2,
+      "lhId": "5-6-BODY",
+      "devtoolsNodePath": "1,HTML,1,BODY",
+      "selector": "body",
+      "boundingRect": {
+        "top": 21,
+        "bottom": 58,
+        "left": 8,
+        "right": 352,
+        "width": 344,
+        "height": 37
+      },
+      "snippet": "<body>",
+      "nodeLabel": "body"
+    },
+    "totalBodyElements": 3
+  },
+  "OptimizedImages": [],
+  "PasswordInputsWithPreventedPaste": [],
+  "ResponseCompression": [
+    {
+      "requestId": "6F12E1806FEE33AA5FDE0918C7880088",
+      "url": "http://127.0.0.1:5500/Hello-Microverse/index.html",
+      "mimeType": "text/html",
+      "transferSize": 2262,
+      "resourceSize": 1914,
+      "gzipSize": 989
+    },
+    {
+      "requestId": "21104.2",
+      "url": "http://127.0.0.1:5500/Hello-Microverse/style.css",
+      "mimeType": "text/css",
+      "transferSize": 414,
+      "resourceSize": 70,
+      "gzipSize": 87
+    }
+  ],
+  "TagsBlockingFirstPaint": [
+    {
+      "tag": {
+        "tagName": "LINK",
+        "url": "http://127.0.0.1:5500/Hello-Microverse/style.css",
+        "mediaChanges": []
+      },
+      "transferSize": 414,
+      "startTime": 1230179.048781,
+      "endTime": 1230179.050949
+    }
+  ],
+  "FontSize": {
+    "analyzedFailingNodesData": [],
+    "analyzedFailingTextLength": 0,
+    "failingTextLength": 0,
+    "totalTextLength": 20
+  },
+  "EmbeddedContent": [],
+  "RobotsTxt": {
+    "status": 404,
+    "content": null
+  },
+  "TapTargets": [],
+  "Accessibility": {
+    "violations": [],
+    "incomplete": [],
+    "notApplicable": [
+      {
+        "id": "accesskeys"
+      },
+      {
+        "id": "aria-allowed-attr"
+      },
+      {
+        "id": "aria-command-name"
+      },
+      {
+        "id": "aria-hidden-focus"
+      },
+      {
+        "id": "aria-input-field-name"
+      },
+      {
+        "id": "aria-meter-name"
+      },
+      {
+        "id": "aria-progressbar-name"
+      },
+      {
+        "id": "aria-required-attr"
+      },
+      {
+        "id": "aria-required-children"
+      },
+      {
+        "id": "aria-required-parent"
+      },
+      {
+        "id": "aria-roledescription"
+      },
+      {
+        "id": "aria-roles"
+      },
+      {
+        "id": "aria-toggle-field-name"
+      },
+      {
+        "id": "aria-tooltip-name"
+      },
+      {
+        "id": "aria-treeitem-name"
+      },
+      {
+        "id": "aria-valid-attr-value"
+      },
+      {
+        "id": "aria-valid-attr"
+      },
+      {
+        "id": "button-name"
+      },
+      {
+        "id": "bypass"
+      },
+      {
+        "id": "definition-list"
+      },
+      {
+        "id": "dlitem"
+      },
+      {
+        "id": "duplicate-id-active"
+      },
+      {
+        "id": "duplicate-id-aria"
+      },
+      {
+        "id": "form-field-multiple-labels"
+      },
+      {
+        "id": "frame-title"
+      },
+      {
+        "id": "image-alt"
+      },
+      {
+        "id": "input-button-name"
+      },
+      {
+        "id": "input-image-alt"
+      },
+      {
+        "id": "label"
+      },
+      {
+        "id": "link-name"
+      },
+      {
+        "id": "list"
+      },
+      {
+        "id": "listitem"
+      },
+      {
+        "id": "meta-refresh"
+      },
+      {
+        "id": "object-alt"
+      },
+      {
+        "id": "role-img-alt"
+      },
+      {
+        "id": "scrollable-region-focusable"
+      },
+      {
+        "id": "select-name"
+      },
+      {
+        "id": "tabindex"
+      },
+      {
+        "id": "td-headers-attr"
+      },
+      {
+        "id": "th-has-data-cells"
+      },
+      {
+        "id": "valid-lang"
+      },
+      {
+        "id": "video-caption"
+      }
+    ],
+    "version": "4.3.5"
+  },
+  "TraceElements": [
+    {
+      "traceEventType": "largest-contentful-paint",
+      "node": {
+        "lhId": "page-0-H1",
+        "devtoolsNodePath": "1,HTML,1,BODY,0,HEADER,0,H1",
+        "selector": "body > header.first > h1",
+        "boundingRect": {
+          "top": 21,
+          "bottom": 58,
+          "left": 8,
+          "right": 352,
+          "width": 344,
+          "height": 37
+        },
+        "snippet": "<h1>",
+        "nodeLabel": "\"Hello Microverse!\"."
+      },
+      "nodeId": 5
+    }
+  ],
+  "InspectorIssues": {
+    "mixedContent": [],
+    "sameSiteCookies": [],
+    "blockedByResponse": [],
+    "heavyAds": [],
+    "contentSecurityPolicy": [],
+    "deprecations": []
+  },
+  "SourceMaps": [],
+  "FullPageScreenshot": {
+    "screenshot": {
+      "data": "data:image/jpeg;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/9k=",
+      "width": 360,
+      "height": 640
+    },
+    "nodes": {
+      "page-0-H1": {
+        "top": 21,
+        "bottom": 58,
+        "left": 8,
+        "right": 352,
+        "width": 344,
+        "height": 37
+      },
+      "5-0-LINK": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "5-1-META": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "5-2-META": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "5-3-META": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "5-4-SCRIPT": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "5-5-H1": {
+        "top": 21,
+        "bottom": 58,
+        "left": 8,
+        "right": 352,
+        "width": 344,
+        "height": 37
+      },
+      "5-6-BODY": {
+        "top": 21,
+        "bottom": 58,
+        "left": 8,
+        "right": 352,
+        "width": 344,
+        "height": 37
+      }
+    }
+  },
+  "ServiceWorker": {
+    "versions": [],
+    "registrations": []
+  }
+}

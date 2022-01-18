@@ -45,9 +45,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ferminmu26](https://github.com/ferminmu26)
+- Twitter: [@ferminmu26](https://twitter.com/ferminmu26)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mejfa)
 
 👤 **Author2**
 
